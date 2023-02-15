@@ -1,18 +1,29 @@
-.About-article {
-  padding: 10px 0;
+.About {
+  margin-top: 50px;
+  text-align: center;
 }
 
-.About-article time {
-  font-size: calc(10px + 0.25vmin); /* half the font size of the header */
-   color: #505050;
-} 
-
-.myimage {
-  display: inline-block;
+/* Style the h1 and h2 tags */
+.About h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
 }
 
+.About h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 50px;
+}
 
-.myimage img {
-  width: 175px;
-  vertical-align: middle;
+/* Style the image */
+.About img {
+  max-width: 400px;
+  margin-top: 50px;
+}
+
+/* Style the paragraph */
+.About p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-top: 25px;
 }
