@@ -1,0 +1,18 @@
+.About-article {
+  padding: 10px 0;
+}
+
+.About-article time {
+  font-size: calc(10px + 0.25vmin); /* half the font size of the header */
+   color: #505050;
+} 
+
+.myimage {
+  display: inline-block;
+}
+
+
+.myimage img {
+  width: 175px;
+  vertical-align: middle;
+}
