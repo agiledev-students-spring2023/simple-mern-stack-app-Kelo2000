@@ -27,12 +27,13 @@ app.get('/about', async (req, res) => {
   // load all messages from database
   try {
     const Data = {
-      name: 'Lukelo',
-      bio: 'Some paragraphs about yourself.',
-      image: './myimage.jpeg'
+      name: 'Lukelo Luoga',
+      bio: 'A self-driven person passionately in using technology and engineering to make this world a better place for everyone. Throughout my life, I have developed strong teamwork skills, effective communication skills, and organization skills. I am very determined to learn new things and skills to become a better version of myself..',
+      Description: 'In the summer of 2022, I worked as a research intern at the Connected Cities with Smart Transportation(C2SMART) research center in New York City. During this opportunity, I worked alongside other researchers at the center to develop a deeplearning intention prediction algorithm that will help to improve the safety of pedestrians in urban areas. The intention prediction algorithm aimed to model complex behaviors of pedestrians and estimate when they will cross the roads. This opportunity did not allow me to improve my engineering problem-solving techniques through Python programming language but also exposed me to the field of machine learning. I learned the fundamentals of machine learning models, and how they are built using programming languages like Python to achieve complex tasks such as pedestrian identification and tracking. I also learned how I can combine different Python libraries alongside machine learning models to achieve a particular goal.',
+     // image: require('./myimage.jpeg')
     };
   
-    res.json({Data: Data, status: 'all good'});
+    res.json({Data: Data});
   } catch (err) {
     console.error(err)
     res.status(400).json({

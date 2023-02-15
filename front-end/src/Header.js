@@ -19,7 +19,7 @@ const Header = props => {
             <Link to="/">Home</Link>
           </li>
           <li className="nav-item">
-            <Link to="/About">About Us</Link>
+            <Link to="/about">About Us</Link>
           </li>
           <li className="nav-item">
             <Link to="/messages">Messages</Link>

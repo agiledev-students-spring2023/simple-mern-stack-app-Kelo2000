@@ -4,7 +4,6 @@ import axios from 'axios'
 import './About.css'
 import myimage from './myimage.jpeg'
 
-
 /**
  * A React component that shows a form the user can use to create a new message, as well as a list of any pre-existing messages.
  * @param {*} param0 an object holding any props passed to this component from its parent component
@@ -52,10 +51,10 @@ const About = props => {
 
   return (
     <>
-      <h1>About Lukelo Luoga</h1>
-      <img className ="myimg" src={Data.image} alt="Image of Lukelo Luoga" />
+      <h1>About {Data.name}</h1>
+      <img className ="myimg" src={myimage} alt="Image of Lukelo Luoga" />
       <p className = "mainText">{Data.bio}</p>
-        <p className = "mainText">{Data.bio}</p>
+        <p className = "mainText">{Data.Description}</p>
     </>
   )
 }
